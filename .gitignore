@@ -1,20 +1,22 @@
-# Ignore common OS, editor, and language-specific files
+# OS
 .DS_Store
 Thumbs.db
 
-# Python
-__pycache__/
-*.py[cod]
-venv/
-.env
-
-# Node
-node_modules/
-
-# Logs
-logs/
-*.log
-
-# IDEs
+# Editor
+*.swp
+*.swo
+*~
 .vscode/
 .idea/
+
+# Build artifacts (future)
+/build/
+/dist/
+/target/
+*.o
+*.exe
+*.hvn.o
+
+# Temporary
+*.tmp
+*.log
