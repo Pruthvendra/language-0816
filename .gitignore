@@ -1,0 +1,20 @@
+# Ignore common OS, editor, and language-specific files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
