@@ -31,8 +31,8 @@ Harven is the first language designed to make that bottleneck solvable.
 
 ## Core Beliefs
 
-1. **Software should express human intent.**  
-   Not accidental complexity. Not "vibe-coded" black boxes. Intent.
+1. **Software should express intent explicitly.**  
+   Not leave it to inference, convention, or guesswork. Intent visible to humans, AI, and compilers.
 
 2. **Trust is the scarcest resource.**  
    By 2030, trust in software will be more valuable than speed.
