@@ -29,12 +29,30 @@ Everything else is secondary.
 
 ## Immutable Principles
 
-1. **Trust is the primary optimization target.**
-2. **AI assists. Humans decide.** No autonomous AI commits.
-3. **Security is default.** Insecure only by explicit, documented intent.
-4. **Documentation leads implementation.**
-5. **Backward compatibility is a promise.**
-6. **We build for decades.** Every decision answers: "Will this still make sense in 2035?"
+1. **Project Mission: Trust**
+   Build software that people trust. Everything else is secondary.
+
+2. **Language Philosophy: Explicit Intent Expression**
+   Harven syntax makes purpose visible and unambiguous to humans, AI systems, and compilers.
+
+3. **Compiler Philosophy: Verifiability**
+   `harvenc` verifies that code matches its expressed intent.
+
+4. **Runtime Philosophy: Correctness**
+   Executed behavior matches verified intent.
+
+5. **AI assists. Humans decide.**
+   No autonomous AI commits. No AI architectural decisions.
+
+6. **Security is default.**
+   Insecure only by explicit, documented intent.
+
+7. **Documentation leads implementation.**
+
+8. **Backward compatibility is a promise.**
+
+9. **We build for decades.**
+   Every decision answers: "Will this still make sense in 2035?"
 
 ---
 
