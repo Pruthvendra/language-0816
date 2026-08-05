@@ -26,6 +26,15 @@ Harven is the programming language developed under Project 0816.
 * **Language Server:** `harven-lsp`
 
 ---
+---
+
+## Design Philosophy
+
+Harven is designed around one core language philosophy:
+
+> **Explicit Intent Expression**
+
+The language encourages software that communicates purpose clearly to humans, AI systems, and compilers. This enables stronger verification, predictable behavior, and ultimately trustworthy software.
 
 ## Status
 
