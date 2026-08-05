@@ -67,9 +67,8 @@ Everything else is secondary.
 This charter may only be amended if:
 1. The change is proposed via a formal Issue.
 2. The rationale addresses why the current text fails.
-3. The change is reviewed against all six immutable principles.
+3. The change is reviewed against all nine immutable principles.
 4. The Founder and Chief Architect approve.
-
 ---
 
 *Build Globally. Execute Incrementally.*
