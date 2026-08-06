@@ -71,3 +71,56 @@ No architectural principle may be added that does not trace to Issues #1, #2, or
 ## 6. Design Decision Hierarchy
 
 Harven's design authority flows downward. Lower layers must never contradict higher layers.
+
+## Design Integrity Rule
+
+Harven evolves from the top down.
+
+No design decision may contradict a higher layer.
+
+When uncertainty exists:
+
+- Constitution wins over Design Philosophy.
+- Design Philosophy wins over Specifications.
+- Specifications win over Implementation.
+
+If a conflict cannot be resolved, the lower-layer proposal must be rejected or revised.
+
+---
+
+## 7. Out of Scope
+
+This document intentionally does NOT define:
+
+- Grammar or syntax details
+- Keywords or reserved words
+- Parser architecture
+- Compiler internals or algorithms
+- Memory model or management strategy
+- Runtime behavior or ABI
+- Optimization strategy
+- Standard library scope or API
+- Error codes or numbering schemes
+- Diagnostics formatting or presentation
+- IDE or LSP behavior
+- Package manager design
+- Build system architecture
+
+These belong to future specifications, not to philosophy.
+
+---
+
+## 8. Future Specification Topics
+
+The following questions are important but remain unanswered. They will be decided through future Issues, not through this document.
+
+- Type system philosophy (static vs dynamic, nominal vs structural)
+- Concurrency and parallelism model
+- Memory management approach (manual, garbage collected, or hybrid)
+- Module and package system philosophy
+- Error handling mechanism (exceptions, results, panics, or other)
+- String, collection, and numeric type semantics
+- Foreign function interface philosophy
+- Standard library scope and guarantees
+- Backward compatibility policy for language evolution
+- Governance model for RFCs and proposals" in file
