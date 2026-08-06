@@ -41,7 +41,7 @@ The language encourages software that communicates purpose clearly to humans, AI
 | Phase | Status | Target |
 |---|---|---|
 | Foundation v0.1 | 🟢 Complete | August 2026 |
-| Language Specification | ⚪ Not Started | Q1 2027 |
+| Language Specification | 🟡 In Progress | Q1 2027 |
 | Toy Compiler (`harvenc`) | ⚪ Not Started | Q3 2027 |
 | Self-Hosted Compiler | ⚪ Not Started | 2029 |
 | v1.0 Production | ⚪ Not Started | 2030 |
