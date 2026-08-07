@@ -26,10 +26,10 @@ The following principles are derived directly from the Constitution. Every princ
 
 | Principle | Source | Meaning |
 |---|---|---|
-| Every program element has a statically known type before execution. | Issue #4 | Type correctness is established before execution. Programmer intent remains visible whether types are explicitly declared or determined by the language's type system. |
+| Every program element has a statically known type before execution. | Issue #4 | Type correctness is established before execution. Programmer intent remains visible whether types are explicitly declared or inferred by the language. |
 | Types are compared by name, not by shape. | Issue #4 | `UserId` and `ProductId` are incompatible even if both are strings. |
 | The compiler rejects programs with type mismatches. | Issue #4 | Enforcement happens before execution. |
-| Type annotations express semantic intent, not just memory layout. | Issue #1 | `Money` means currency. `Count` means quantity. They are not interchangeable. |
+| Types express semantic intent, not merely representation. | Issue #1 | `Money` means currency. `Count` means quantity. They are not interchangeable. |
 
 No type system principle may be added that does not trace to Issues #1 or #4.
 
@@ -39,9 +39,15 @@ No type system principle may be added that does not trace to Issues #1 or #4.
 
 This document defines the philosophy of Harven's type system.
 
-It does not prescribe syntax, compiler algorithms, parser behavior, optimization strategies, or implementation techniques.
+It does not prescribe:
 
-If any future specification conflicts with Issue #4, the specification must be revised.
+- language syntax
+- parser behavior
+- compiler algorithms
+- optimization techniques
+- runtime implementation
+
+If any future specification conflicts with the constitutional decisions established by Issue #4, the specification must be revised.
 
 ---
 
