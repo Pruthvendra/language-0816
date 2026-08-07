@@ -22,16 +22,30 @@ Issue #4 is locked:
 
 ## 3. Type System Principles
 
+The following principles are derived directly from the Constitution. Every principle traces to Issue #4 or Issue #1.
+
 | Principle | Source | Meaning |
 |---|---|---|
-| Every value has a type known at compile time. | Issue #4 | No runtime type discovery. Intent is visible in source. |
+| Every program element has a statically known type before execution. | Issue #4 | Type correctness is established before execution. Programmer intent remains visible whether types are explicitly declared or determined by the language's type system. |
 | Types are compared by name, not by shape. | Issue #4 | `UserId` and `ProductId` are incompatible even if both are strings. |
 | The compiler rejects programs with type mismatches. | Issue #4 | Enforcement happens before execution. |
 | Type annotations express semantic intent, not just memory layout. | Issue #1 | `Money` means currency. `Count` means quantity. They are not interchangeable. |
 
+No type system principle may be added that does not trace to Issues #1 or #4.
+
 ---
 
-## 4. Out of Scope
+## 4. Design Integrity
+
+This document defines the philosophy of Harven's type system.
+
+It does not prescribe syntax, compiler algorithms, parser behavior, optimization strategies, or implementation techniques.
+
+If any future specification conflicts with Issue #4, the specification must be revised.
+
+---
+
+## 5. Out of Scope
 
 This document does NOT define:
 
@@ -47,7 +61,9 @@ These belong to the Language Specification and Compiler Specification.
 
 ---
 
-## 5. Future Specification Topics
+## 6. Future Specification Topics
+
+The following questions are important but remain unanswered. They will be decided through future Issues, not through this document.
 
 - Type inference philosophy
 - Generic type system design
